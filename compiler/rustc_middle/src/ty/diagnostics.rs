@@ -68,6 +68,9 @@ impl<'tcx> TyS<'tcx> {
                 | Closure(..)
                 | Infer(..)
                 | Projection(..)
+                | Generator(..)
+                | GeneratorWitness(..)
+                | Error(..)
         )
     }
 }
